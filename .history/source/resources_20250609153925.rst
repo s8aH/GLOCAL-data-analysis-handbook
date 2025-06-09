@@ -1,0 +1,7 @@
+Useful Links & Resources
+========================
+
+- `Normalized Housing Prices by Province (Statistics Canada) <https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=4610009101>`_
+- `Ontario FOI (Freedom of Information) Requests <https://www.ontario.ca/page/freedom-information-request>`_
+- `Government of Canada: Access to Information <https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/request-information.html>`_
+- `Secret Canada: FOI Guides and Resources <https://www.secretcanada.com/foi-guides-and-resources/how-to-file-foi-request>`_

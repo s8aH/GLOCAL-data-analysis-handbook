@@ -1,0 +1,6 @@
+Key Principles and Best Practices
+=================================
+
+- **Date & Time:** Always display dates or time frames on the x-axis in ascending order (unless there’s a specific reason not to). This makes trends easier to interpret.
+- **Summary Statistics:** Clearly indicate in titles or captions whether values represent a sum, mean, median, etc., to prevent misinterpretation.
+- **Define Variables & Units:** Always define variables, units, and terms—numbers need context to be meaningful. Use clear labels, concise legends, and brief axis notes for clarity.
