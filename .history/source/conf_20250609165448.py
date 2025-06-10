@@ -16,8 +16,6 @@ release = '2025/06/09'
 
 extensions = []
 
-exclude_patterns = ['_build', '**.ipynb_checkpoints', '.DS_Store', 'Thumbs.db']
-
 templates_path = ['_templates']
 exclude_patterns = []
 
