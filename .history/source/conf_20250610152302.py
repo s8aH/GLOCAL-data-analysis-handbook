@@ -14,9 +14,14 @@ release = '2025/06/09'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+extensions = []
+
 exclude_patterns = ['build', '**.ipynb_checkpoints', '.DS_Store', 'Thumbs.db']
-extensions = ['sphinx_togglebutton', 'sphinx_copybutton', 'myst_nb', 'jupyter_book', 'sphinx_thebe', 'sphinx_comments', 'sphinx.ext.intersphinx', 'sphinx_design', 'sphinx_book_theme']
+extensions = ['sphinx_togglebutton', 'sphinx_copybutton', 'myst_nb', 'jupyter_book', 'sphinx_thebe', 'sphinx_comments', 'sphinx_external_toc', 'sphinx.ext.intersphinx', 'sphinx_design', 'sphinx_book_theme', 'sphinxcontrib.bibtex', 'sphinx_jupyterbook_latex', 'sphinx_multitoc_numbering']
+
+
 templates_path = ['_templates']
+exclude_patterns = []
 
 
 
@@ -28,7 +33,7 @@ html_logo = "_static/logo-light.png"
 html_title = "GLOCAL Data Analysis Handbook"
 
 html_theme_options = {
-    "repository_url": "https://github.com/s8ah/GLOCAL-data-analysis-handbook",
+    "repository_url": "https://s8ah.github.io/GLOCAL-data-analysis-handbook/",
     "use_repository_button": True,
     "logo": {
         "image_light": "logo-light.png", 

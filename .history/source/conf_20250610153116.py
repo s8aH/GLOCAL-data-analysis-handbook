@@ -28,7 +28,7 @@ html_logo = "_static/logo-light.png"
 html_title = "GLOCAL Data Analysis Handbook"
 
 html_theme_options = {
-    "repository_url": "https://github.com/s8ah/GLOCAL-data-analysis-handbook",
+    "repository_url": "https://s8ah.github.io/GLOCAL-data-analysis-handbook/",
     "use_repository_button": True,
     "logo": {
         "image_light": "logo-light.png", 
