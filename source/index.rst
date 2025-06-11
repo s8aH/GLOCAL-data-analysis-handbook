@@ -14,9 +14,10 @@ This guide outlines best practices and workflow for conducting data analysis as 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Key Principles and Best Practices:
+   :caption: Data Visualization Best Practices:
 
-   data_visualization
+   visualization_tips
+   citation
 
 .. toctree::
    :maxdepth: 2
