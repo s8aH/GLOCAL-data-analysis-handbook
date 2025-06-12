@@ -4,8 +4,8 @@ How to Handle Missing Data
 - Investigate why the data is missing - is it due to privacy, confidentiality, or simply not reported?
 - Avoid filling missing values with zeros, as this can mislead readers into thinking the value is actually zero.
 - Email the relevant government data officer for clarification.
-- Look for alternative datasets that may include the missing information. These datasets do not have to be from the same source, as long as key details (like timeline and date) align.
-- If possible, show distributions for different Indigenous groups. If this data is not directly available, consider using feature engineering to create new columns or seek out datasets that include this information.
+- Look for alternative datasets that may include the missing information. These datasets don’t have to be from the same source, as long as key details (like timeline and date) align. If possible, bring the relevant columns into your current dataset.
+- If possible, show distributions for different key groups relevant to your project. If this data isn’t directly available, consider using feature engineering to create new columns or look for additional datasets that include this information.
 - If data remains unavailable after your efforts, add a comment below the plot to explain why it’s missing.
 
 FOI Requests
