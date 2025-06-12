@@ -1,25 +1,29 @@
 2025 Federal Election Tableau Dashboard
 ==========================================
 
-Below is an example of feedback given to a public dashboard. Use this as a checklist when reviewing your own visualizations or dashboards for clarity and accuracy.
+You can view the dashboard here_.
 
-Feedback & Lessons Learned
---------------------------
+.. _here: https://public.tableau.com/app/profile/trizia.tating/viz/2025-Federal-Election/ElectionTurnout
+
+Below is an example of feedback given to a public dashboard created by Patricia, a GLOCAL data volunteer. Use this as a checklist when reviewing your own visualizations or dashboards for clarity and accuracy.
+
+Feedback
+---------
 
 - **Pie Chart Misrepresentation:**  
-  The bottom-right pie chart offering the gender breakdown of voters is incorrect. All genders are less than 30% rather than 100%, while men and women each make up only around a third of the pie chart. In reality, we should expect 90% or more of votes to come from men or women.
+  The bottom-right pie chart showing the gender breakdown of voters is incorrect. The chart displays all genders as less than 30% each, and both men and women make up only about a third of the pie, rather than the expected majority. In reality, we would expect 90% or more of votes to come from men or women combined.
 
 - **Default Map View:**  
-  The map defaults to votes from all genders between 18-24 years old in the 2004 election, even while the dropdown menus to the right are all set to "All". Could this be changed to reflect all genders of all ages across all federal elections from 2004 onwards?
+  The map defaults to showing votes from all genders between 18–24 years old in the 2004 election, even though the dropdown menus are set to "All." Could this be updated so the default reflects all genders and all ages across all federal elections from 2004 onward?
 
 - **Missing Legend:**  
-  Provinces are a different colour than territories, but there is no legend indicating this delineation. Can a legend be added at the bottom or top left corner of the map box?
+  Provinces are coloured differently from territories, but there’s no legend indicating this distinction. Could a legend be added to the bottom or top left corner of the map box?
 
 - **Gradient Usage:**  
-  What is the purpose of the gradient being used across the provinces and territories in the "Provincial Distribution" section? A gradient typically implies something is increasing or decreasing, but province/territory is a nominal rather than an ordinal variable. It does not look bad, but perhaps the gradient could be based upon turnout rather than province/territory name? This would be more informative.
+  What is the purpose of the gradient used across the provinces and territories in the "Provincial Distribution" section? A gradient typically implies a progression or change, but province/territory is a nominal (not ordinal) variable. While the design looks fine, perhaps the gradient could instead be based on turnout rates rather than province or territory names. This would make the visualization more informative.
 
 - **Turnout Calculation:**  
-  Votes divided by Eligible Electors do not equal turnout. Why is this? And what year(s) are "Votes", "Eligible Electors", and "Voter Turnout" covering?
+  Dividing "Votes" by "Eligible Electors" does not yield the same value as "Voter Turnout." Also, what year(s) do the "Votes," "Eligible Electors," and "Voter Turnout" numbers represent?
 
 - **Unclear or Inaccurate Text:**  
-  The statement "In 2004 to 2021, the average voter turnout for the selected age group was All in All was 20.55% to 98.08%". Some fixes are definitely needed here. These percentages are almost certainly incorrect (I don't think any age group has ever turned out as 20.55% or 98.08% in Canada), and the sentence should ideally read like "In 2004 to 2021, the average voter turnout for people ages [age group] was X%".
+  The statement "In 2004 to 2021, the average voter turnout for the selected age group was All in All was 20.55% to 98.08%" needs clarification and correction. These percentages seem unlikely—it's doubtful that any age group in Canada would have turnout rates as low as 20.55% or as high as 98.08%. Ideally, the sentence should read something like: "From 2004 to 2021, the average voter turnout for people aged [age group] was X%."

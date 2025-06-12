@@ -30,8 +30,6 @@ This guide outlines best practices and workflow for conducting data analysis as 
    :caption: Missing Data and Troubleshooting:
 
    missingdata
-   troubleshooting
-   resources
 
 .. toctree::
    :maxdepth: 2

@@ -11,6 +11,7 @@ Suppose you include a chart like the one below, showing the 12-month percentage 
 .. image:: _static/chart.png
    :alt: Example CPI Trend Chart
    :width: 500px
+   :align: center
 
 Make the table name a clickable link to the original Statistics Canada dataset.
 The source should be formatted as:
