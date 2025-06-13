@@ -1,0 +1,18 @@
+format: jb-book
+root: index
+
+nav:
+  - Data Visualization Best Practices:
+      - visualization_tips
+      - citation
+  - Workflow for Data Analysis:
+      - workflow/index
+      - workflow/data-analysis
+      - workflow/data-cleaning
+      - workflow/data-visualization
+      - workflow/exploratory-data-analysis
+      - workflow/feature-engineering
+  - Missing Data and Troubleshooting:
+      - missingdata
+  - Review & Feedback:
+      - election_dashboard_feedback
