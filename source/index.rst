@@ -23,7 +23,13 @@ This guide outlines best practices and workflow for conducting data analysis as 
    :maxdepth: 2
    :caption: Workflow for Data Analysis:
 
-   workflow
+   workflow/index
+   workflow/data-analysis
+   workflow/data-cleaning
+   workflow/data-visualization
+   workflow/exploratory-data-analysis
+   workflow/feature-engineering
+
 
 .. toctree::
    :maxdepth: 2
