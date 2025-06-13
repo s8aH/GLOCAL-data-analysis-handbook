@@ -15,10 +15,19 @@ release = '2025/06/09'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 exclude_patterns = ['build', '**.ipynb_checkpoints', '.DS_Store', 'Thumbs.db']
-extensions = ['sphinx_togglebutton', 'sphinx_copybutton', 'myst_nb', 'jupyter_book', 'sphinx_thebe', 'sphinx_comments', 'sphinx.ext.intersphinx', 'sphinx_design', 'sphinx_book_theme']
+extensions = ['sphinx_togglebutton', 'sphinx_copybutton', 'myst_nb', 'myst_parser', 'jupyter_book', 'sphinx_thebe', 'sphinx_comments', 'sphinx.ext.intersphinx', 'sphinx_design', 'sphinx_book_theme']
 templates_path = ['_templates']
+source_suffix = {
+  '.rst': 'restructuredtext',
+  '.md':  'markdown',
+}
 
-
+myst_enable_extensions = [
+  'colon_fence',
+  'deflist',
+  'html_admonition',
+  'html_image',
+]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
